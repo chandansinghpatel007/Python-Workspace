@@ -1,12 +1,12 @@
 #Task 7: List length
 #Find how many elements are present in a list without manually counting them.
 
-list=[10, 20, 30, 40, 50]
+numbers = [10, 20, 30, 40, 50]
 
-print(len(list))
+print(len(numbers))
 
-c=0
-for i in list:
-    c=c+1
-    
-print(c)
+count = 0
+for i in numbers:
+    count = count + 1
+
+print(count)

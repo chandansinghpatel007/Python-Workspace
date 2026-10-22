@@ -1,12 +1,11 @@
 #Task 8: Sum and average
 #Find the sum and average of [10, 20, 30, 40, 50].
 
-list=[10, 20, 30, 40, 50]
+numbers = [10, 20, 30, 40, 50]
 
-sum=0
-for i in list:
-    sum+=i
-    
-print(sum)
+total = 0
+for i in numbers:
+    total += i
 
-print('Average : ', sum/len(list))
+print(total)
+print("Average:", total / len(numbers))
